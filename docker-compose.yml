@@ -31,7 +31,7 @@ services:
         - ARCHITECTURE=${ARCHITECTURE}
         - SRC_PATH=${SRC_PATH}
     ports:
-      - 80:80
+      - 8010:80
     environment:
       - MONGO_URL=mongodb://wekandb:27017/wekan
       - ROOT_URL=http://localhost
